@@ -81,10 +81,18 @@ INSERT INTO insurence  VALUES (10,'National Insurence','KAR22222015R452',"vinay"
 
 
 
-SELECT * FROM insurence;
-
-update insurence Set  ownerName ='ajay' where Sl_No=1;
-
 alter table insurence modify column Sl_No  bigint;
 
 
+update insurence Set  ownerName ='ajay' where Sl_No=2;
+
+
+update insurence set ownername='ajay',Sl_No=1 where insurence_name='ICICI';
+
+
+
+update insurence set ownername='sunil',Sl_No=3 where insurence_name='LIC';
+
+
+delete from insurence where  Sl_No =1 ;
+rollback;
