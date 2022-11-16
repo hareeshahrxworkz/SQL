@@ -53,15 +53,15 @@ insert into Playars values(13281,'Aleksei ','Gusev',	23	,'Russia	','Entropiq',	'
 insert into Playars values(7167,'	kennyS	','Schrub'	,27	,'France','	G2	G2, Envy, ','Titan',	37067,	30736,	31.20,	74.7,	3.4	,1852,	48898	,1.21	,0.76,	0.11,	0.63,	0.09	,0.11,	24567,	'K - D diff.',	5847	,3969,	1.47,	1.13,	76.50,	17.50,24331,	15241	,6747	,2120,	412	,47	,8533	,19544,	843	,7423,	707	,80,	1.13
 );
 insert into Playars values(10774,'WingHei ','0Cheung',	23	,'Hong Kong',	'YK	','ViCi, TYLOO',	15040,	12743,	49.10,	80.7	,2.9	,773	,19766,	1.18,	0.76,	0.13,	0.64	,0.09	,0.11,	9837,	'K - D diff.',	1902	,1717,	1.11,	1	,75.70,	13.50,	9929	,5988	,2725,	918	,182	,24	,10686	,690	,766	,2735,	158	,32	,1.16);
-insert into Playars values(3972,'	huNter-',' KovaÄ	',26,	'Bosniaand Herzegovina,',	'G2	G2, ','Valiance, Binary Dragons',	30144,	25923,	49.40,	84.8	,5.5	,1474	,38947,	1.16	,0.77	,0.14,	0.67	,0.1	,0.11	,19652	,'K - D diff.	',4536	,3818	,1.19	,1.09,	76.10,	16.60,	19295,	11861,	5534,	1846,	378,	33,	212,72	,344	,3190	,4826,	422,	156,	1.12);
+insert into Playars values(3972,'	huNter-',' KovaÄ	',26,	'Bosniaand ',	'G2	G2, ','Valiance,',	30144,	25923,	49.40,	84.8	,5.5	,1474	,38947,	1.16	,0.77	,0.14,	0.67	,0.1	,0.11	,19652	,'K - D diff.	',4536	,3818	,1.19	,1.09,	76.10,	16.60,	19295,	11861,	5534,	1846,	378,	33,	212,72	,344	,3190	,4826,	422,	156,	1.12);
 insert into Playars values(9960	,'frozen',	'David ',	20,	'Slovakia',	'MOUZ'	,'MOUZ, eXtatus',	24136,	20574,	54.60,	82.9,	5.1,	1218	,31866	,1.17,	0.76,	0.13,	0.65	,0.09,	0.11,	15834	,'K - D diff.',	3463,	3098,	1.12	,1.05	,73.50,	15.10,	16032,	9799	,4184,	1471,	344	,36	,17384,	1178,	849	,4379,	333,	100	,1.12);
 insert into Playars values(16816	,'vsm	','Vinicius',	23	,'Brazil',	'00NATION	','DETONA, 00NATION',	10883,	9398,	47.00,	83.6	,3.1	,533	,14130	,1.16,	0.77	,0.13,	0.67	,0.09	,0.1	,7098	,'K - D diff.',	1806,	1548	,1.17,	1.12,	73.20,	17.90,7032,	4315,	1963,	647	,164,	9	,7544,	1047,	404,	1800,	99,	32,	1.18);
 insert into Playars values(12877	,'chelleos', 'Hawkins',	22	,'New Zealand',		'Rooster',' madlikewizards, Paradox',	11270	,9818	,32.00,	84.2	,4.1	,560	,14454	,1.15	,0.78	,0.13,	0.68,	0.1	,0.9	,7347	,'K - D diff.',574	,2036	,1.26	,1.32,	72.30,	24.80,	7107,	4471	,2021	,679	,160	,16	,3548,	5692,	260	,1601,	160,	35	,1.2);
-insert into Playars values(11141,'	erkaSt',	27	,'Mongolia'	,'NKT',	'Grayhound, TIGER, Immunity',	17397	,14889,	50.10,	83.3	,5.1	,869	,22571	,1.17,	0.77	,0.15,	0.66,	0.09	,0.09,	11431	,'K - D diff.	',2385,	2041	,1.17	,1.04,	75.20,	14.30,	11140,	6979,	3187	,1032	,217	,16	,12309,	384,	1608	,2838,	247,	52,	1.17);
+insert into Playars values(11141,'	erkaSt','Hawkins',	27	,'Mongolia'	,'NKT',	'Grayhound, TIGER, Immunity',	17397	,14889,	50.10,	83.3	,5.1	,869	,22571	,1.17,	0.77	,0.15,	0.66,	0.09	,0.09,	11431	,'K - D diff.	',2385,	2041	,1.17	,1.04,	75.20,	14.30,	11140,	6979,	3187	,1032	,217	,16	,12309,	384,	1608	,2838,	247,	52,	1.17);
 
 
 insert into Playars values(12553,'	yuurih	','Yuri ',	22	,'Brazil'	,'FURIA	','FURIA	',20149	,16995,	44.30,	84.2	,5	,1022,	26677,	1.19,	0.76	,0.15,	0.64,	0.09,	0.11	,13336,	'K - D diff.',	2580	,1877	,1.37,	1.03,	76.40,	13.70,	13341	,8292	,3570	,1201,	251	,22	,15471	,453	,744	,3219,	286,	43,	1.18);
-insert into Playars values(8574	,'woxic	','Ã–zgÃ¼r'	,23	,'Turkey	','Eternal Fire','	Eternal Fire, ',	22815,	18947,	32.10,	76.4,	2.4,	1178	,30952,	1.2	,0.74,	0.11	,0.61,	0.08,	0.1	,15130,	'K - D diff.',	3693	,2485,	1.49,	1.13,	76.10,	17.30,	15822	,9398,	4130,	1287	,279	,36	,622,	12438,	462,	3472	,214,	84	,1.12);
+
 insert into Playars values(1088,'	liTTle'	,'Anatoliy',33	,'Russia',	'HellRaisers','	forZe, RuSh3D, Spartak, Enso',	9317,	7766	,27.70,	78.5,	2.6	,457	,12154	,1.2	,0.77,	0.1	,0.64,	0.07	,0.09,	6279,	'K - D diff.',	1595,	1041	,1.53,	1.18	,71.60,	19.00,	5875	,3952,	1735,	484,	99	,9	,1248,	5656,	105,	2206,	112	,7,	1.12);
 insert into Playars values(11140,'	INS	','Joshua',	23	,'Australia	','ORDER	ORDER',' Renegades, Chiefs, Tainted Minds'	,18179	,15568	,42.50,	85.6	,8.5	,946	,23988,	1.17,	0.76,	0.17,	0.65	,0.1	,0.09	,11887,	'K - D diff.	',2792	,2439,	1.14	,1.08,	77.50,	15.90,	12101,	7199,	3368	,1063,	230	,27,	12322,	825,	1492,	3018,	490,	77	,1.19);
 insert into Playars values(11816	,'ropz', 'Kool',	22	,'Estonia	','FaZe','	MOUZ',	22490,	18697,	51.60	,78.5	,2.4	,1149	,30413	,1.2	,0.74,	0.11,	0.61,	0.07,	0.09	,14993,'	K - D diff.'	,2943	,2410,	1.22	,1.02,	73.10	,13.50,	15420	,9347	,4109	,1251,	258	,28	,16807,	1080,	738,	3679,	131,	117	,1.15);
@@ -73,11 +73,59 @@ select country from Playars where player_id=16816 and age=23;
 
 select country from Playars where player_id=3741 or age=25;
 
-select country from Playars where player_id not in (798,1088,3741);
+select country ,player_id from Playars where player_id not in (798,1088,3741);
 
 select country from Playars where country like "s%";
 
 select country from playars group by(country);
 
 select country from playars group by(country)having country="Russia" ;
+
+select country,nickname from  playars where player_id between 798 AND 9102;
+
+
+
+
+create table Hospital (Patient_id int  primary key , Hospital_Name Varchar(90),DoctoeName Varchar(20),No_of_Staffs int not  null,Contact_no bigint not null,Hospital_id int not null
+,age int not null,address varchar(40) not null , State varchar(50) not null ,Country varchar(50) not null,distic varchar(50)not null ,pincode int not null,no_of_patient int not null ,
+Patient_Contact_no bigint not null ,Aadar_No bigint not null,Pan_no bigint not null,Desease varchar(40) not null,no_of_wards int not null ,no_of_washroom int not null,No_of_visitors int not null,foreign key Hospital(Patient_id)references Playars(player_id) ) ;
+select * from Hospital;
+insert into Hospital values (11893,'narendara',"gopi",40,99001145211,101,20,'heggere',"Karnataka",'India',"Chitradurga",456788,60,1235647889,432501245612,124578,"Fevear",60,20,1200);
+insert into Hospital values (798,'manu',"mahesh",56,78945867548,102,20,'heggere',"tamilnadu",'nepal',"ballary",456781,83,89457841455,85698547851,545812,"hartatak",90,63,56482);
+insert into Hospital values (7131,'nagandra',"nanjunda",96,894572168,103,20,'heggere',"kerala",'china',"tumakur",577542,27,9684576985,52148752148,254821,"leaver",48,25,25130);
+insert into Hospital values (1088,'monky',"jhon",89,689754821,104,15,'obalapaura',"maharastra",'odidssa',"banglore",255457,93,99007750224,9825467845218,58475185,"damage",60,20,24510);
+insert into Hospital values (3741,'bahadoor',"ledy",95,7985468215,105,98,'srirampura',"rajastan",'us',"chikkamagaluru",571313,87,995467854,65849758425,2345871,"cancer",35,56,2561);
+insert into Hospital values (7167,'mano',"bipo",85,7845213548,106,87,'rajajinagara',"assam",'uk',"shivamogga",577527,72,84454445,98547815426,254685,"blueray",25,95,2541);
+insert into Hospital values (7867,'solo',"bolo",26,85468752145,107,22,'chamarajanagara',"sikkim",'pakisthan',"belagam",517897,87,985478545,23456857482,685214578,"bidadi",56,584,45842);
+insert into Hospital values (20113,'narsh',"beeresh",38,9845672456,108,62,'najnjanagudu',"delhi",'russia',"badam",579458,49,9854675451,75489512478,25487152,"Fevear",2510,250,2513);
+insert into Hospital values (7938,'govind',"manju",94,754684512,109,325,'bellale',"arunachala",'bangladesh',"pattadakallu",587458,84,9845754558,24578952462,2365424,"bidar",25410,20,4500);
+insert into Hospital values (7998,'brahma',"guru",29,87546215487,110,34,'ballari',"andrapredesh",'honkak',"hassan",578458,36,897548512,245178524612,25487521,"gourav",36,25,2000);
+insert into Hospital values (8574,'vijay',"swati",67,9854622178,111,45,'hunusur',"gujarat",'ukren',"Chamarajanagara",598754,98,85784578,254678945612,2548211,"mavious",75,63,21540);
+insert into Hospital values (8950,'vimal',"mala",58,985468721,112,67,'malur',"bannari",'west indes',"mysore",5847589,26,8945782,897548213457,2548214,"leg pain",25,85,25410);
+insert into Hospital values (9102,'nataraj',"vinay",82,2897548123,113,85,'cross',"chanai",'japan',"hunasur",5897548,12,8546789,658451155422,2548751245,"heasdpain",65,75,7520);
+insert into Hospital values (9216,'swetha',"kavya",45,6845798512,114,64,'chHalli',"jammu",'antartika',"tiptur",254158,98,984578542,9854789542,98457852,"main pain",1540,201,1520);
+insert into Hospital values (9626,'vinoda',"sunil",87,879458126,115,48,'palya',"kashmir",'koriya',"davanagere",5784515,89,4655762225,78546985421,6545256,"hand pain",60,20,3520);
+insert into Hospital values (11140,'mahesh',"haresh",94,897548213,116,95,'goruru',"Karnataka",'southkoria',"haveri",15488,48,897548642,32154685798,2546875,"pain",64,25,35210);
+insert into Hospital values (11141,'ranga',"lohi",93,7548512125,117,57,'huliyar',"tiruvanathapura",'amerika',"gulbharga",456788,60,54524545565,89754812547,85478215,"stomachate",45,87,5460);
+insert into Hospital values (12591,'santu',"chandu",38,897546821,118,15,'yalanadu',"gokak",'kolkatta',"gadag",456788,60,8645784455,8794511522,5215482,"headhache",84,25,2560);
+insert into Hospital values (12877,'parimala',"preeti",85,9215478546,119,87,'koppalu',"maharasta ",'indonatia',"bagalakot",456788,60,8956478545,9658475124587,8794585,"astama",35,23,6520);
+insert into Hospital values (13776,'madhu',"bhanui",94,978546789,120,64,'hosadurga',"ukannada",'inland',"kerala",456788,60,98546785412,9921245112,457894,"kemmu",42,35,72150);
+insert into Hospital values (15631,'sindhu',"swami",67,8945789546,121,48,'kondapura',"south kannada",'afganistan',"mangalore",456788,60,89754897548,897548125467,854687544,"cold",72,29,4520);
+
+select * from Hospital;select * from Playars;
+
+select playars.Player_id as id,playars.real_name as name, Hospital.Patient_id as pid,Hospital.DoctoeName as dname from playars inner join Hospital where player_id=798;
+select playars.Player_id as id, Hospital.Patient_id as pid from playars inner join Hospital on playars.player_id=Hospital.Patient_id;
+
+select playars.Player_id as id, Hospital.Patient_id as pid from playars left  join Hospital on playars.player_id=Hospital.Patient_id;
+
+select playars.Player_id as id, Hospital.Patient_id as pid from playars right  join Hospital on playars.player_id=Hospital.Patient_id;
+
+select playars.Player_id as id, Hospital.Patient_id as pid from playars ,Hospital;
+
+select Real_name,age from playars where player_id in(select patient_id  from Hospital where Patient_id=798 );
+
+
+
+
 
