@@ -45,7 +45,7 @@ insert into mallitems values(104,"acer",'tab','acer','10','9980302417','avaiable
 insert into mallitems values(105,"adidas",'shoos','adidas','11','9980360254','avaiable','avaiable','20','1998');
 insert into mallitems values(106,"scoda",'car','scoda','85','99803625145','avaiable','avaiable','25','1564');
 insert into mallitems values(108,"realme",'mobile','realme','28','5568954895','avaiable','avaiable','46','2025');
-insert into mallitems values(109,"laptop",'lapm','laptop','26','6899765689','avaiable','avaiable','65','2016');
+insert into mallitems values(109,"laptp",'lapm','laptop','26','6899768689','avaiable','avaiable','65','2016');
 insert into mallitems values(110,"susuki",'cars','susuki','32','9844537206','avaiable','avaiable','52','2014');
 insert into mallitems values(111,"jcb",'vichal','jcb','15','99007785022','avaiable','avaiable','35','2013');
 insert into mallitems values(112,"venill store",'icecreame','venilla','17','9985062054','avaiable','avaiable','78','2011');
@@ -64,5 +64,60 @@ drop table mallitems;
 
 desc mall;
 desc mallitems;
+
+
+
+
+select ltrim(Shope_Id)  from mallitems;
+select ltrim(Shope_Name)  from mallitems;
+select ltrim(Brand_Names)  from mallitems;
+select ltrim(Contact_No)  from mallitems;
+select ltrim(Service_available)  from mallitems;
+select ltrim(Brand_Available)  from mallitems;
+select ltrim(offers)  from mallitems;
+select ltrim(No_Of_Brands)  from mallitems;
+select ltrim(brand_opening_year)  from mallitems;
+select ltrim(Shope_Items)  from mallitems;
+
+
+
+select rtrim(Shope_Id)  from mallitems;
+select rtrim(  Shope_Name)  from mallitems;
+select rtrim(Brand_Names)  from mallitems;
+select rtrim(Contact_No)  from mallitems;
+select rtrim(Service_available)  from mallitems;
+select rtrim(Brand_Available)  from mallitems;
+select rtrim(offers)  from mallitems;
+select rtrim(No_Of_Brands)  from mallitems;
+select rtrim(brand_opening_year) from mallitems;
+select rtrim(Shope_Items)  from mallitems;
+
+
+SELECT ltrim(mall_Id) from mall;
+SELECT ltrim(Mall_Name) from mall;
+SELECT ltrim(Address) from mall;
+SELECT ltrim(MallOwnerName) from mall;
+SELECT ltrim(noOf_visitorePerDay) from mall;
+SELECT ltrim(openTime) from mall;
+SELECT ltrim(No_Of_Employees) from mall;
+SELECT ltrim(No_of_counters) from mall;
+SELECT ltrim(mallContactNo) from mall;
+SELECT ltrim(mallState) from mall;
+
+
+SELECT rtrim(mall_Id) from mall;
+SELECT rtrim(Mall_Name) from mall;
+SELECT rtrim(Address) from mall;
+SELECT rtrim(MallOwnerName) from mall;
+SELECT rtrim(noOf_visitorePerDay) from mall;
+SELECT rtrim(openTime) from mall;
+SELECT rtrim(No_Of_Employees) from mall;
+SELECT rtrim(No_of_counters) from mall;
+SELECT rtrim(mallContactNo) from mall;
+SELECT rtrim(mallState) from mall;
+
+select  greatest()
+
+
 
 

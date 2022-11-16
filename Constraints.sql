@@ -100,11 +100,11 @@ select RTRIM(party_name) from election;
 select LTRIM(party_name) from election;
 
 
+select ltrim("    Hareesha   ");
 
 
 
 
 
-
-
+select length("hareesha");
 

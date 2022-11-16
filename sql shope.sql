@@ -56,6 +56,10 @@ insert into buspass values(4,'bhoomi',9900775088,'IND456546H',current_date(),cur
 insert into buspass values(5,'guru',7022532279,'IND456546H',current_date(),current_time(),now(),'Thumakuru','India',29,'male','guruworkx@gmail.com','28-07-2018');
 insert into buspass values(6,'gouri',6361561399,'IND456546H',current_date(),current_time(),now(),'vijayapura','India',29,'Femal','gouri@gmail.com','26-09-1991');
 	select * from  buspass;
+    	select * from  buspass group by(Person_Gender);
+
+    
+    
 
 	select * from  buspass where id=6;
     
@@ -86,6 +90,10 @@ alter table insurence modify column Sl_No  bigint;
 
 
 update insurence Set  ownerName ='ajay' where Sl_No=2;
+
+
+-- GROUPBY-- 
+
 
  use distric;
 
@@ -166,7 +174,7 @@ select * from insurence order by Sl_No desc;
 -- avg retun value from column
 
 select count(*)from insurence;
-select count(*) as shubam from insurence;
+select count(insurence_name) as shubam from insurence;
 select sum(insurence_Price) from insurence;
 
 select Max(insurence_Price) from insurence;
@@ -182,6 +190,151 @@ select min(Sl_No) from insurence;
 select avg(Sl_No) from insurence;
 
 
+
+
+
+select * from bank;
+
+select count(NoOfWorkers),Address,ManagerName,CashCounterNO from bank group by CashCounterNO;
+select count(NoOfWorkers),Address,ManagerName,CashCounterNO from bank group by CashCounterNO having Address='banglore';
+
+select sum(NoOfWorkers),Address,ManagerName,CashCounterNO from bank group by CashCounterNO;
+select sum(NoOfWorkers),Address,ManagerName,CashCounterNO from bank group by CashCounterNO having CashCounterNO=5;
+
+
+select avg(NoOfWorkers),Address,ManagerName,CashCounterNO from bank group by CashCounterNO;
+select avg(NoOfWorkers),Address,ManagerName,CashCounterNO from bank group by CashCounterNO having ManagerName='mahendar';
+
+
+select max(NoOfWorkers),Address,ManagerName,CashCounterNO from bank group by CashCounterNO;
+select max(NoOfWorkers),Address,ManagerName,CashCounterNO from bank group by CashCounterNO having ManagerName='prabhu';
+
+
+select min(NoOfWorkers),Address,ManagerName,CashCounterNO from bank group by CashCounterNO;
+select min(NoOfWorkers),Address,ManagerName,CashCounterNO from bank group by CashCounterNO having ManagerName='vinoda';
+
+
+
+select *from buspass;
+select count(id),passanger_name,Person_Gender,Person_Email_ID ,Person_Age from  buspass group by Person_Gender;
+select count(id),passanger_name,Person_Gender,Person_Email_ID ,Person_Age from  buspass group by Person_Gender having Person_Gender='male' ;
+
+select sum(id),passanger_name,Person_Gender,Person_Email_ID ,Person_Age from  buspass group by Person_Gender;
+select sum(id),passanger_name,Person_Gender,Person_Email_ID ,Person_Age from  buspass group by Person_Gender having Person_Gender='femal' ;
+
+select avg(id),passanger_name,Person_Gender,Person_Email_ID ,Person_Age from  buspass group by Person_Gender;
+select avg(id),passanger_name,Person_Gender,Person_Email_ID ,Person_Age from  buspass group by Person_Gender having Person_Gender='male' ;
+
+select max(id),passanger_name,Person_Gender,Person_Email_ID ,Person_Age from  buspass group by Person_Gender;
+select max(id),passanger_name,Person_Gender,Person_Email_ID ,Person_Age from  buspass group by Person_Gender having Person_Gender='femal' ;
+
+select min(id),passanger_name,Person_Gender,Person_Email_ID ,Person_Age from  buspass group by Person_Gender;
+select min(id),passanger_name,Person_Gender,Person_Email_ID ,Person_Age from  buspass group by Person_Gender having Person_Gender='female' ;
+
+
+
+select* from insurence;
+
+select count(Sl_No), insurence_name,ownername,insurence_price  from insurence group by  insurence_price;
+select count(Sl_No), insurence_name,ownername,insurence_price  from insurence group by  insurence_price having ownername='shubam';
+
+select sum(Sl_No), insurence_name,ownername,insurence_price  from insurence group by  insurence_price;
+select sum(Sl_No), insurence_name,ownername,insurence_price  from insurence group by  insurence_price having ownername='hareesha';
+
+select avg(Sl_No), insurence_name,ownername,insurence_price  from insurence group by  insurence_price;
+select avg(Sl_No), insurence_name,ownername,insurence_price  from insurence group by  insurence_price having ownername='manoj';
+
+select max(Sl_No), insurence_name,ownername,insurence_price  from insurence group by  insurence_price;
+select max(Sl_No), insurence_name,ownername,insurence_price  from insurence group by  insurence_price having ownername='sunil';
+
+select min(Sl_No), insurence_name,ownername,insurence_price  from insurence group by  insurence_price;
+select min(Sl_No), insurence_name,ownername,insurence_price  from insurence group by  insurence_price having ownername='ajay';
+
+select* from karnataka;
+
+select count(nofDistric),capitial_city,DCName from Karnataka group by capitial_city;
+select count(nofDistric),capitial_city,DCName from Karnataka group by capitial_city having DCName='jyothi' ;
+
+select sum(nofDistric),capitial_city,DCName from Karnataka group by capitial_city;
+select sum(nofDistric),capitial_city,DCName from Karnataka group by capitial_city having DCName='nagaraju' ;
+
+select avg(nofDistric),capitial_city,DCName from Karnataka group by capitial_city;
+select avg(nofDistric),capitial_city,DCName from Karnataka group by capitial_city having DCName='gouri' ;
+
+select max(nofDistric),capitial_city,DCName from Karnataka group by capitial_city;
+select max(nofDistric),capitial_city,DCName from Karnataka group by capitial_city having DCName='manohara' ;
+
+select min(nofDistric),capitial_city,DCName from Karnataka group by capitial_city;
+select min(nofDistric),capitial_city,DCName from Karnataka group by capitial_city having DCName='sachin' ;
+
+
+
+
+
+select * FROM SHOP;
+
+SELECT count(price) ,Shop_Name ,Shopeowner_Name,shope_Address ,selingitem_perday from shop group by selingitem_perday ;
+SELECT count(price) ,Shop_Name ,Shopeowner_Name,shope_Address ,selingitem_perday from shop group by selingitem_perday having shope_address ='rajajinagar' ;
+
+SELECT max(price) ,Shop_Name ,Shopeowner_Name,shope_Address ,selingitem_perday from shop group by selingitem_perday ;
+SELECT max(price) ,Shop_Name ,Shopeowner_Name,shope_Address ,selingitem_perday from shop group by selingitem_perday having shope_address ='BANGLORE' ;
+
+SELECT min(price) ,Shop_Name ,Shopeowner_Name,shope_Address ,selingitem_perday from shop group by selingitem_perday ;
+SELECT min(price) ,Shop_Name ,Shopeowner_Name,shope_Address ,selingitem_perday from shop group by selingitem_perday having shope_address ='vijaynagar' ;
+
+
+SELECT sum(price) ,Shop_Name ,Shopeowner_Name,shope_Address ,selingitem_perday from shop group by selingitem_perday ;
+SELECT sum(price) ,Shop_Name ,Shopeowner_Name,shope_Address ,selingitem_perday from shop group by selingitem_perday having shope_address ='rajajinagar' ;
+
+
+SELECT avg(price) ,Shop_Name ,Shopeowner_Name,shope_Address ,selingitem_perday from shop group by selingitem_perday ;
+SELECT avg(price) ,Shop_Name ,Shopeowner_Name,shope_Address ,selingitem_perday from shop group by selingitem_perday having shope_address ='jpnagar' ;
+
+
+select lpad('Xworkz',10,'odc');
+select lpad('Xworkz',4,'odc');
+
+select rpad('Xworkz',10,'odc');
+select lpad('Xworkz',5,'odc');
+
+
+
+ create table food_detiles(id int not null,restorentName varchar(20) not null,quantity int ,price int, check(price>=45 and price<=250) );
+
+select * from food_detiles;
+
+insert into food_detiles values (1,'shubamchitranna',2,200);
+insert into food_detiles values (2,'manjunatha',5,150);
+insert into food_detiles values (3,'shubamchitranna',5,180);
+insert into food_detiles values (4,'shubamchitranna',58,120);
+
+drop table food_detiles;
+
+lock table food_detiles read;
+
+insert into food_detiles values (1,'akshy',8,60);
+update food_detiles set restorentName='bhavana' where price=200;
+update food_detiles set restorentName='govinda' where price=150;
+update food_detiles set restorentName='Manurestorent' where price=180;
+update food_detiles set restorentName='sunil restorent' where price=120;
+
+delete from restorentName where price=200;
+delete from restorentName where price=150;
+delete from restorentName where price=180;
+delete from restorentName where price=120;
+lock table food_detiles write;
+unlock tables;
+
+select * from food_detiles limit 2 ;
+
+select * from food_detiles order by restorentName  desc limit 2;
+
+select greatest(10,50,20,11,5,04,3,20,25);
+
+SELECT DATEDIFF("2023-11-01","2022-11,01");
+SELECT DAYNAME('2000-01-21');
+
+CONTINENT DETILES TABLE
 
 
 
